@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+  <persistence-unit name="default">
+      <properties>
+        <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+        <!--      连接MySQL数据库的驱动-->
+        <property name="hibernate.connection.url" value="jdbc:sqlserver://127.0.0.1:11069;DatabaseName=Software_Practical_Training;TrustServerCertificate=true"/>
+        <!--      需要连接哪个数据库-->
+        <property name="hibernate.connection.username" value="sa"/>
+        <!--      数据库的用户名-->
+        <property name="hibernate.connection.password" value="180714"/>
+        <!--      数据库的密码-->
+        <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+        <!--是否每次创建连接时覆盖原来的表，第一次不存在所以需要覆盖就是新建，后面就不需要了，注释了-->
+        <property name="hibernate.hbm2ddl.auto" value="update" />
+        <!--将自动生成的sql语句显示出来-->
+        <property name="hibernate.show_sql" value="false"/>
+        <!--将自动生成的sql语句格式化-->
+        <property name="hibernate.format_sql" value="true"/>
+
+
+      </properties>
+  </persistence-unit>
+</persistence>
