@@ -31,10 +31,11 @@
 
 ##商家登录页面展示
 ![avatar](myshixun_elm/images/商家登录页面.png)
-##商家菜品管理页面展示
-![avatar](myshixun_elm/images/商家菜品管理页面.png)
 
 ##管理员登录页面展示
 ![avatar](myshixun_elm/images/管理员登录页面.png)
+
+##商家菜品管理页面展示
+![avatar](myshixun_elm/images/商家菜品管理页面.png)
 
 
