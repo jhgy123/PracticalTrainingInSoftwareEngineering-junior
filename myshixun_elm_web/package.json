@@ -1,0 +1,22 @@
+{
+  "name": "elmh5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "npx tailwindcss -i css/tw_css/tw_index.css -o css/index.css --watch",
+    "businessList": "npx tailwindcss -i css/tw_css/tw_businessList.css -o css/businessList.css --watch",
+    "businessInf": "npx tailwindcss -i css/tw_css/tw_businessInf.css -o css/businessInf.css --watch",
+    "order": "npx tailwindcss -i css/tw_css/tw_order.css -o css/order.css --watch",
+    "payment": "npx tailwindcss -i css/tw_css/tw_payment.css -o css/payment.css --watch",
+    "login": "npx tailwindcss -i css/tw_css/tw_login.css -o css/login.css --watch",
+    "register": "npx tailwindcss -i css/tw_css/tw_register.css -o css/register.css --watch",
+    "historicalOrders": "npx tailwindcss -i css/tw_css/tw_historicalOrders.css -o css/historicalOrders.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
